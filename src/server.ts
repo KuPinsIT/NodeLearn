@@ -15,7 +15,9 @@ mongoose
         Logging.info('Mongo connected successfully.');
         StartServer();
     })
-    .catch((error) => Logging.error(error));
+    .catch((error) => {
+        return Logging.error(error);
+    });
 
 /** Only Start Server if Mongoose Connects */
 const StartServer = () => {

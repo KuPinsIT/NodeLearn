@@ -1,11 +1,8 @@
 {
-  "singleQuote": true,
-  "printWidth": 200,
-  "proseWrap": "always",
-  "tabWidth": 4,
-  "useTabs": false,
-  "trailingComma": "none",
-  "bracketSpacing": true,
-  "jsxBracketSameLine": false,
-  "semi": true
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.wordWrap": "on",
+    "git.ignoreLimitWarning": true
 }
